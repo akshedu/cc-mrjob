@@ -1,2 +1,5 @@
-/Users/akshanshgupta/Workspace/test.warc.gz
-/Users/akshanshgupta/Workspace/test2.warc.gz
+hdfs::///workspace/warc/test.warc.gz
+hdfs::///workspace/warc/test2.warc.gz
+hdfs::///workspace/warc/test3.warc.gz
+hdfs::///workspace/warc/test4.warc.gz
+hdfs::///workspace/warc/test5.warc.gz
