@@ -46,7 +46,7 @@ class CCJob(MRJob):
         `process_record`.
         """
         # If we're on EC2 or running on a Hadoop cluster, pull files via S3
-        if self.options.runner in ['emr', 'hadoop']:
+        if self.options.runner in ['emr']:
             # Connect to Amazon S3 using anonymous credentials
             boto_config = botocore.client.Config(
                 signature_version=botocore.UNSIGNED,

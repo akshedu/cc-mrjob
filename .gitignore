@@ -25,6 +25,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+packages/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -106,3 +107,6 @@ output/
 
 # Visual Studio Code configuration folder
 .vscode/
+
+# Mac OS X Files
+.DS_Store
